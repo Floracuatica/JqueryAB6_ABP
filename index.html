@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería de Imágenes</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<div class="gallery">
+  <img src="assets/img/1.png" id="img1" class="thumbnail" alt="Aros Destino">
+  <img src="assets/img/2.png" id="img2" class="thumbnail" alt="Collar Corazón">
+  <img src="assets/img/3.png" id="img3" class="thumbnail" alt="Aros Arcoiris">
+  <img src="assets/img/4.png" id="img4" class="thumbnail" alt="Ranita mirándose">
+</div>
+
+<div id="modal" class="modal">
+  <span id="closeBtn" class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+  <p id="caption" class="caption"></p> <!-- Pie de foto -->
+  <div class="modal-controls">
+    <button id="prev">Anterior</button>
+    <button id="next">Siguiente</button>
+  </div>
+</div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
